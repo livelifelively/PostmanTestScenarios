@@ -102,6 +102,18 @@
 				"url": "{{url}}/users"
 			},
 			"response": []
+		},
+		{
+			"name": "New Request",
+			"id": "7d022ff5-32e2-42f9-ab9c-1154de456673",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
 		}
 	]
 }
