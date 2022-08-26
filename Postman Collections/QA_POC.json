@@ -36,16 +36,6 @@
 						],
 						"type": "text/javascript"
 					}
-				},
-				{
-					"listen": "prerequest",
-					"script": {
-						"id": "97d1c00a-b434-4b3b-8f4d-257e39b7b1c9",
-						"exec": [
-							"pm.environment.set(\"url\", \"http://google.com\");"
-						],
-						"type": "text/javascript"
-					}
 				}
 			],
 			"id": "8ef11d75-c269-43e2-b11e-a0dcc8b620b0",
