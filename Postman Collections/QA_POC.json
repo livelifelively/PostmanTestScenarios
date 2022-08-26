@@ -22,7 +22,6 @@
 							"pm.test(\"Check if user with id1 is Dikshant Agarwal\", function () {",
 							"    var jsonData = pm.response.json();",
 							"    pm.expect(jsonData[0].name).to.eql(\"Dikshant Agarwal\");",
-							"    ",
 							"});",
 							"",
 							"pm.test(\"Create global variables\",function(){",
@@ -33,6 +32,16 @@
 							"})",
 							"",
 							""
+						],
+						"type": "text/javascript"
+					}
+				},
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "97d1c00a-b434-4b3b-8f4d-257e39b7b1c9",
+						"exec": [
+							"pm.environment.set(\"url\", \"http://google.com\");"
 						],
 						"type": "text/javascript"
 					}
