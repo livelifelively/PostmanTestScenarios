@@ -36,7 +36,7 @@
 					}
 				}
 			],
-			"_postman_id": "fc3610fa-2a20-495f-9105-af164e404266",
+			"id": "fc3610fa-2a20-495f-9105-af164e404266",
 			"protocolProfileBehavior": {
 				"disabledSystemHeaders": {
 					"connection": true,
@@ -84,7 +84,7 @@
 					}
 				}
 			],
-			"_postman_id": "98c72b11-32f3-40ff-b0e7-875f94440ce7",
+			"id": "98c72b11-32f3-40ff-b0e7-875f94440ce7",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -111,7 +111,7 @@
 					}
 				}
 			],
-			"_postman_id": "89454348-cba4-4345-afe1-16c7debac564",
+			"id": "89454348-cba4-4345-afe1-16c7debac564",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -119,6 +119,18 @@
 				"method": "GET",
 				"header": [],
 				"url": "{{url}}/users"
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"id": "d3a86f70-69ec-45f6-9d94-1ca3d4775e7d",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": []
 			},
 			"response": []
 		}
