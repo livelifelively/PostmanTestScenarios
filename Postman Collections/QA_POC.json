@@ -40,7 +40,7 @@
 					}
 				}
 			],
-			"_postman_id": "deef2b5c-4e56-4ca6-8670-66497d8955e9",
+			"id": "deef2b5c-4e56-4ca6-8670-66497d8955e9",
 			"protocolProfileBehavior": {
 				"disabledSystemHeaders": {
 					"connection": true,
@@ -81,6 +81,10 @@
 							"pm.test(\"Check if user with id1 is Leanne Graham\", function () {",
 							"    var jsonData = pm.response.json();",
 							"    pm.expect(jsonData[0].name).to.eql(\"Leanne Graham\");",
+							"",
+							"    pm.test(\"Response time is less than 2000ms\", function () {",
+							"        pm.expect(pm.response.responseTime).to.be.below(2000);",
+							"    });",
 							"    ",
 							"});"
 						],
@@ -88,7 +92,7 @@
 					}
 				}
 			],
-			"_postman_id": "cae68f52-3d55-4a6a-8fcf-7e1f150fd29d",
+			"id": "cae68f52-3d55-4a6a-8fcf-7e1f150fd29d",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
