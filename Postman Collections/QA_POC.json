@@ -36,7 +36,7 @@
 					}
 				}
 			],
-			"_postman_id": "63f83a4c-87b5-4cbe-851c-9a62dbd26aa3",
+			"id": "63f83a4c-87b5-4cbe-851c-9a62dbd26aa3",
 			"protocolProfileBehavior": {
 				"disabledSystemHeaders": {
 					"connection": true,
@@ -84,7 +84,7 @@
 					}
 				}
 			],
-			"_postman_id": "75bd2134-5b70-403f-84a7-2ab62a9a4ed3",
+			"id": "75bd2134-5b70-403f-84a7-2ab62a9a4ed3",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -92,6 +92,18 @@
 				"method": "GET",
 				"header": [],
 				"url": "{{url}}/users"
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"id": "625b70a7-e1a0-4942-afdc-e4c55546dbe1",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": []
 			},
 			"response": []
 		}
