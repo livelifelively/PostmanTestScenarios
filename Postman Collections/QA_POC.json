@@ -13,7 +13,6 @@
 					"script": {
 						"id": "6efdb952-613d-4976-8ce2-14b1e898671c",
 						"exec": [
-							"pm.variables.set('url', 'http://google.com')",
 							"pm.environment.set(\"url\", \"http://google.com\");",
 							"",
 							"pm.test(\"Status code for the request\",function(){",
