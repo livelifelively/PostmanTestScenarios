@@ -1,6 +1,6 @@
 {
 	"info": {
-		"_postman_id": "e36e1ac3-f442-49f0-966f-f42a864a21d5",
+		"_postman_id": "46d88049-de85-4997-9062-3b280f9b3ec9",
 		"name": "QA_POC",
 		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
 	},
@@ -11,7 +11,7 @@
 				{
 					"listen": "test",
 					"script": {
-						"id": "bd6b6331-7800-4c45-af24-fe78f6dd53a4",
+						"id": "6efdb952-613d-4976-8ce2-14b1e898671c",
 						"exec": [
 							"pm.test(\"Status code for the request\",function(){",
 							"    pm.response.to.have.status(201)",
@@ -36,7 +36,7 @@
 					}
 				}
 			],
-			"id": "fc3610fa-2a20-495f-9105-af164e404266",
+			"_postman_id": "8ef11d75-c269-43e2-b11e-a0dcc8b620b0",
 			"protocolProfileBehavior": {
 				"disabledSystemHeaders": {
 					"connection": true,
@@ -68,7 +68,7 @@
 				{
 					"listen": "test",
 					"script": {
-						"id": "abb20e0a-d23a-4084-918f-bf326b764c29",
+						"id": "5c11a3d3-9c10-47e6-a5cb-500ff66e3735",
 						"exec": [
 							"pm.test(\"Status code for the request\",function(){",
 							"    pm.response.to.have.status(200)",
@@ -84,7 +84,7 @@
 					}
 				}
 			],
-			"id": "98c72b11-32f3-40ff-b0e7-875f94440ce7",
+			"_postman_id": "d1634603-99c6-4d2c-be4c-49ca5bead6c5",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -101,7 +101,7 @@
 				{
 					"listen": "test",
 					"script": {
-						"id": "6e5c53e0-0e17-4591-a159-c283925df7df",
+						"id": "886a73bd-a4c2-47fb-86da-5bbf550f9412",
 						"exec": [
 							"pm.test(\"Status code for the request\",function(){",
 							"    pm.response.to.have.status(200)",
@@ -111,7 +111,7 @@
 					}
 				}
 			],
-			"id": "89454348-cba4-4345-afe1-16c7debac564",
+			"_postman_id": "c0f727b4-315a-491e-a0aa-1e1921a33e70",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -124,7 +124,7 @@
 		},
 		{
 			"name": "Get Email corresponding to the user id",
-			"id": "d3a86f70-69ec-45f6-9d94-1ca3d4775e7d",
+			"_postman_id": "12383416-e50a-4a9f-a8d3-29cb26de8f39",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -132,7 +132,6 @@
 				"method": "GET",
 				"header": [],
 				"url": "{{url}}/users"
-				
 			},
 			"response": []
 		}
