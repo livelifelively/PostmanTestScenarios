@@ -123,7 +123,7 @@
 			"response": []
 		},
 		{
-			"name": "New Request",
+			"name": "Check for Email with a specific ID",
 			"id": "2e0f37db-5c2e-4ed4-b90c-d1fe01e978b9",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
