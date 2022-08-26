@@ -6,13 +6,15 @@
 	},
 	"item": [
 		{
-			"name": "Post Data to Users Endpoint sasdf",
+			"name": "Post Data to Users Endpoint",
 			"event": [
 				{
 					"listen": "test",
 					"script": {
 						"id": "6efdb952-613d-4976-8ce2-14b1e898671c",
 						"exec": [
+							"pm.variables.set('url', 'http://google.com')",
+							"",
 							"pm.test(\"Status code for the request\",function(){",
 							"    pm.response.to.have.status(201)",
 							"})",
@@ -36,7 +38,7 @@
 					}
 				}
 			],
-			"_postman_id": "8ef11d75-c269-43e2-b11e-a0dcc8b620b0",
+			"id": "8ef11d75-c269-43e2-b11e-a0dcc8b620b0",
 			"protocolProfileBehavior": {
 				"disabledSystemHeaders": {
 					"connection": true,
@@ -84,7 +86,7 @@
 					}
 				}
 			],
-			"_postman_id": "d1634603-99c6-4d2c-be4c-49ca5bead6c5",
+			"id": "d1634603-99c6-4d2c-be4c-49ca5bead6c5",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -111,7 +113,7 @@
 					}
 				}
 			],
-			"_postman_id": "c0f727b4-315a-491e-a0aa-1e1921a33e70",
+			"id": "c0f727b4-315a-491e-a0aa-1e1921a33e70",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -124,7 +126,7 @@
 		},
 		{
 			"name": "Get Email corresponding to the user id",
-			"_postman_id": "12383416-e50a-4a9f-a8d3-29cb26de8f39",
+			"id": "12383416-e50a-4a9f-a8d3-29cb26de8f39",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
