@@ -123,7 +123,7 @@
 			"response": []
 		},
 		{
-			"name": "New Request",
+			"name": "Get Email corresponding to the user id",
 			"id": "d3a86f70-69ec-45f6-9d94-1ca3d4775e7d",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
