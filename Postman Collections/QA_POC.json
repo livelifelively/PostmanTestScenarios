@@ -96,7 +96,7 @@
 			"response": []
 		},
 		{
-			"name": "New Request",
+			"name": "Get specific user id data",
 			"id": "625b70a7-e1a0-4942-afdc-e4c55546dbe1",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
