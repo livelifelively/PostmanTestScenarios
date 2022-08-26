@@ -1,6 +1,6 @@
 {
 	"info": {
-		"_postman_id": "7368de63-c73d-44fa-a650-1db5d5d72c97",
+		"_postman_id": "e36e1ac3-f442-49f0-966f-f42a864a21d5",
 		"name": "QA_POC",
 		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
 	},
@@ -11,7 +11,7 @@
 				{
 					"listen": "test",
 					"script": {
-						"id": "597938ea-d255-4f7b-80cb-8300fd2a44f1",
+						"id": "bd6b6331-7800-4c45-af24-fe78f6dd53a4",
 						"exec": [
 							"pm.test(\"Status code for the request\",function(){",
 							"    pm.response.to.have.status(201)",
@@ -36,7 +36,7 @@
 					}
 				}
 			],
-			"id": "63f83a4c-87b5-4cbe-851c-9a62dbd26aa3",
+			"_postman_id": "fc3610fa-2a20-495f-9105-af164e404266",
 			"protocolProfileBehavior": {
 				"disabledSystemHeaders": {
 					"connection": true,
@@ -68,7 +68,7 @@
 				{
 					"listen": "test",
 					"script": {
-						"id": "d3326d76-2686-4131-9833-4ce5f0b55fe4",
+						"id": "abb20e0a-d23a-4084-918f-bf326b764c29",
 						"exec": [
 							"pm.test(\"Status code for the request\",function(){",
 							"    pm.response.to.have.status(200)",
@@ -84,7 +84,7 @@
 					}
 				}
 			],
-			"id": "75bd2134-5b70-403f-84a7-2ab62a9a4ed3",
+			"_postman_id": "98c72b11-32f3-40ff-b0e7-875f94440ce7",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -101,7 +101,7 @@
 				{
 					"listen": "test",
 					"script": {
-						"id": "2b8d581f-7b33-4d6f-9789-ce473f41b995",
+						"id": "6e5c53e0-0e17-4591-a159-c283925df7df",
 						"exec": [
 							"pm.test(\"Status code for the request\",function(){",
 							"    pm.response.to.have.status(200)",
@@ -111,34 +111,7 @@
 					}
 				}
 			],
-			"id": "625b70a7-e1a0-4942-afdc-e4c55546dbe1",
-			"protocolProfileBehavior": {
-				"disableBodyPruning": true
-			},
-			"request": {
-				"method": "GET",
-				"header": [],
-				"url": "{{url}}/users"
-			},
-			"response": []
-		},
-		{
-			"name": "Check for Email with a specific ID",
-			"event": [
-				{
-					"listen": "test",
-					"script": {
-						"id": "526ceb44-488b-4792-a45f-89bcea332e21",
-						"exec": [
-							"pm.test(\"Status code for the request\",function(){",
-							"    pm.response.to.have.status(200)",
-							"})"
-						],
-						"type": "text/javascript"
-					}
-				}
-			],
-			"id": "2e0f37db-5c2e-4ed4-b90c-d1fe01e978b9",
+			"_postman_id": "89454348-cba4-4345-afe1-16c7debac564",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
