@@ -97,13 +97,28 @@
 		},
 		{
 			"name": "Get specific user id data",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "2b8d581f-7b33-4d6f-9789-ce473f41b995",
+						"exec": [
+							"pm.test(\"Status code for the request\",function(){",
+							"    pm.response.to.have.status(200)",
+							"})"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
 			"id": "625b70a7-e1a0-4942-afdc-e4c55546dbe1",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
 			"request": {
 				"method": "GET",
-				"header": []
+				"header": [],
+				"url": "{{url}}/users"
 			},
 			"response": []
 		}
