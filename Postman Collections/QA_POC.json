@@ -130,7 +130,8 @@
 			},
 			"request": {
 				"method": "GET",
-				"header": []
+				"header": [],
+				"url": "{{url}}/users"
 			},
 			"response": []
 		}
