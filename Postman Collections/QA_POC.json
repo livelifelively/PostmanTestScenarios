@@ -124,13 +124,28 @@
 		},
 		{
 			"name": "Check for Email with a specific ID",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "526ceb44-488b-4792-a45f-89bcea332e21",
+						"exec": [
+							"pm.test(\"Status code for the request\",function(){",
+							"    pm.response.to.have.status(200)",
+							"})"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
 			"id": "2e0f37db-5c2e-4ed4-b90c-d1fe01e978b9",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
 			"request": {
 				"method": "GET",
-				"header": []
+				"header": [],
+				"url": "{{url}}/users"
 			},
 			"response": []
 		}
