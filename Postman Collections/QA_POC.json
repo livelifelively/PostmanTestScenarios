@@ -13,7 +13,7 @@
 					"script": {
 						"id": "6efdb952-613d-4976-8ce2-14b1e898671c",
 						"exec": [
-							"pm.environment.set(\"url\", \"http://google.com\");",
+							"",
 							"",
 							"pm.test(\"Status code for the request\",function(){",
 							"    pm.response.to.have.status(201)",
@@ -33,6 +33,16 @@
 							"})",
 							"",
 							""
+						],
+						"type": "text/javascript"
+					}
+				},
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "97d1c00a-b434-4b3b-8f4d-257e39b7b1c9",
+						"exec": [
+							"pm.environment.set(\"url\", \"http://google.com\");"
 						],
 						"type": "text/javascript"
 					}
